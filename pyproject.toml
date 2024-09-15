@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "neo4j-graph"
+version = "0.1.0"
+description = ""
+authors = ["Andre Wiradarma <awiradarma@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain = "^0.3.0"
+langchain-community = "^0.3.0"
+langchain-openai = "^0.2.0"
+langchain-experimental = "^0.3.0"
+neo4j = "^5.24.0"
+jupyter = "^1.1.1"
+langchain-ollama = "^0.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
